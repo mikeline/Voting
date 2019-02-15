@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body.results{
+    font-family:'Open Sans', sans-serif;
+    background: white;
+    width:90%;
+    margin:0 auto;
+    padding:2em 0 6em;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.wrapper{
+    margin:3em 0;
+}
+
+a, a:visited, a:hover, a:active{
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    position:relative;
+    transition:0.5s color ease;
+    text-decoration:none;
+    color:#81b3d2;
+    font-size:2.5em;
+}
+
+a:hover{
+    color:#d73444;
+}
+
+a.after:after{
+    content: "";
+    transition:0.5s all ease;
+    -webkit-backface-visibility:hidden;
+    backface-visibility:hidden;
+    position:absolute;
+    bottom:-0.25em;
+    height:5px;
+    height:0.35rem;
+    width:0;
+    background:#d73444;
+}
+
+a.second:after{
+    right:0;
+}
+
+a.after:hover:after{
+    width:100%;
+}

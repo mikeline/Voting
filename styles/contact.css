@@ -1,0 +1,66 @@
+body, html {
+    margin:0;
+    padding:0;
+    background:#e0e0e0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.card {
+    background: white;
+    margin:0px auto;
+    padding: 40px;
+    padding-top: 20px;
+    margin-top: 60px;
+    width:690px;
+    color:#555 !important;
+    font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+    font-size:14px;
+}
+
+.form-section {
+    list-style: none;
+    list-style-position: outside;
+    margin: 0px;
+    position: relative;
+    zoom: 1;
+    clear: both;
+}
+
+.form-required {
+    margin-left: 5px;
+    color: red;
+}
+
+.form-submit-button {
+    padding: 9px 15px;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 0;
+    color: #333;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    border-radius: 3px 3px;
+    text-shadow: 0 1px #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px #fff inset;
+    align-items: flex-start;
+    text-align: center;
+    overflow: visible;
+}
+
+a {
+    margin-left: 10px;
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+    color: #2c6ed5;
+    text-decoration: underline;
+}

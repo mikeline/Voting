@@ -1,0 +1,103 @@
+body {
+    overflow-x: hidden;
+}
+
+.question-list {
+    list-style: none;
+}
+
+.choice-list {
+    list-style: none;
+}
+
+.panel {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Verdana, sans-serif;
+}
+
+.user-info {
+}
+
+.user-info ul {
+    list-style: none;
+    margin-top: 40px;
+}
+
+.user-info ul li:first-child {
+    margin-bottom: 20px;
+}
+
+.user-info ul li {
+    text-align: start;
+}
+
+
+.user-data {
+    color: #888888;
+}
+
+.votes {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.votes h5{
+    text-align: center;
+}
+
+.questions {
+    padding-top: 20px;
+}
+
+.questions h5{
+    text-align: center;
+}
+
+.divide {
+    margin: 0 auto;
+    height: 1px;
+    width: 50%;
+    border-bottom: 1px solid #9e9e9e;
+}
+
+.question-element {
+    border: 1px solid #9e9e9e;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+a#endQuestion {
+    color: indianred;
+    font-family: helvetica;
+    text-decoration: none;
+}
+
+a#endQuestion:hover {
+    text-decoration: underline;
+}
+
+a#endQuestion:active {
+    color: black;
+}
+
+a#endQuestion:visited {
+    color: purple;
+}
+
+a#delete {
+    color: indianred;
+    font-family: helvetica;
+    text-decoration: none;
+}
+
+a#delete:hover {
+    text-decoration: underline;
+}
+
+a#delete:active {
+    color: black;
+}
+
+a#delete:visited {
+    color: purple;
+}
+
